@@ -1,0 +1,10 @@
+IP ADDRESSS
+
+Class solution:
+Def defangIPaddr(self,address:str)->str:
+    a=""
+      for I in address:
+        if I =".":
+           a=a+"[.]"
+       else:
+          a=a+i
